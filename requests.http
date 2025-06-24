@@ -1,0 +1,23 @@
+### Listar tarefas
+GET http://127.0.0.1:5000/tarefas
+
+### Criar tarefa
+POST http://127.0.0.1:5000/tarefas
+Content-Type: application/json
+
+{
+  "titulo": "Teste via REST Client",
+  "status": "pendente",
+  "prioridade": "Alta"
+}
+
+### Editar tarefa 0
+PUT http://127.0.0.1:5000/tarefas/0
+Content-Type: application/json
+
+{
+  "status": "concluída"
+}
+
+### Deletar tarefa 1
+DELETE http://127.0.0.1:5000/tarefas/1
