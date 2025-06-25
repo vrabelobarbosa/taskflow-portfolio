@@ -1,0 +1,8 @@
+@startuml
+actor Usuário
+
+Usuário --> (Listar Tarefas)
+Usuário --> (Criar Tarefa)
+Usuário --> (Editar Tarefa)
+Usuário --> (Excluir Tarefa)
+@enduml

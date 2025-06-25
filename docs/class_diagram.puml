@@ -1,0 +1,11 @@
+@startuml
+class Tarefa {
+    - titulo: string
+    - status: string
+    - prioridade: string
+    + criar()
+    + listar()
+    + editar()
+    + excluir()
+}
+@enduml
