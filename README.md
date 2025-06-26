@@ -44,6 +44,15 @@ Testes unitários em `/tests` e CI via GitHub Actions.
 
 ---
 
+## 🔧 Integração Contínua (CI)
+
+Este projeto utiliza o GitHub Actions para integração contínua, que automatiza a execução dos testes unitários a cada alteração no código (push ou pull request para a branch `main`). 
+
+Isso garante que possíveis erros sejam detectados rapidamente, evitando regressões e mantendo a qualidade do software durante o desenvolvimento. O workflow está configurado no arquivo `.github/workflows/ci.yml`.
+
+Você pode acompanhar o status das execuções pelo badge no topo deste README.
+
+
 ## 🔄 Kanban
 
 Organização via GitHub Projects em três colunas:
@@ -109,4 +118,3 @@ Modelagem UML, modularização, testes, CI/CD e gestão ágil (Kanban).
 
 Vinicius Rabelo Barbosa  
 [GitHub](https://github.com/vrabelobarbosa)
-
