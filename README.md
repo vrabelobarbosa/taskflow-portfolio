@@ -12,6 +12,24 @@ Desenvolver um CRUD de tarefas com Flask, integrando testes automatizados, CI/CD
 
 ---
 
+## 📑 Requisitos do Projeto
+
+### Requisitos Funcionais
+
+- O sistema deve permitir criar, listar, editar e excluir tarefas.
+- Cada tarefa deve conter título, status e prioridade.
+- O sistema deve apresentar a lista de tarefas com filtros por status e prioridade.
+- A aplicação deve fornecer respostas HTTP adequadas para cada operação CRUD.
+- Os testes automatizados devem validar as funcionalidades principais.
+
+### Requisitos Não Funcionais
+
+- O sistema deve ser desenvolvido em Python usando Flask.
+- A aplicação deve ter testes unitários integrados, com execução automática via CI.
+- O código deve ser organizado modularmente, seguindo boas práticas de engenharia de software.
+- O projeto deve integrar GitHub Actions para CI/CD.
+- A documentação deve incluir diagramas UML e organização ágil via Kanban.
+
 ## 🚀 Como executar localmente
 
 ```bash
@@ -37,7 +55,7 @@ Abra no navegador: `http://127.0.0.1:5000/tarefas`
 ## 🧪 Testes
 
 ```bash
-pytest
+pytest -v
 ```
 
 Testes unitários em `/tests` e CI via GitHub Actions.
@@ -61,7 +79,8 @@ Organização via GitHub Projects em três colunas:
 - **Em Progresso**  
 - **Concluído**  
 
-Acesse o board: https://github.com/users/vrabelobarbosa/projects/2/views/1
+Acesse o board: [Kanban do projeto](https://github.com/users/vrabelobarbosa/projects/2/views/1)
+
 
 ---
 
