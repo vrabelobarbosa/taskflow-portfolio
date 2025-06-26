@@ -109,3 +109,4 @@ Modelagem UML, modularização, testes, CI/CD e gestão ágil (Kanban).
 
 Vinicius Rabelo Barbosa  
 [GitHub](https://github.com/vrabelobarbosa)
+
